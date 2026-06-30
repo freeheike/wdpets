@@ -62,6 +62,8 @@ export default function VirtualPet() {
   const stats = useGameStore((s) => s.stats)
   const effect = useGameStore((s) => s.effect)
   const triggerEffect = useGameStore((s) => s.triggerEffect)
+  const trainingActive = useGameStore((s) => s.trainingActive)
+  const completeTraining = useGameStore((s) => s.completeTraining)
 
   const [frameIndex, setFrameIndex] = useState(1)
   const [animMode, setAnimMode] = useState<PetAnimMode>('walk')
@@ -78,6 +80,9 @@ export default function VirtualPet() {
   const busyRef = useRef(false)
   const pauseTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const restTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const trainingRef = useRef(false)
+
+  trainingRef.current = trainingActive
 
   animModeRef.current = animMode
   const currentSrc = getQilinFrameSrc(frameIndex)
@@ -155,6 +160,11 @@ export default function VirtualPet() {
   }, [getBounds])
 
   const onArrived = useCallback(() => {
+    if (trainingRef.current) {
+      completeTraining()
+      startWander()
+      return
+    }
     if (busyRef.current) return
     busyRef.current = true
     animModeRef.current = 'idle'
@@ -171,7 +181,7 @@ export default function VirtualPet() {
       targetRef.current = pickTarget(getBounds())
       startWander()
     }, PAUSE_MS + Math.random() * 800)
-  }, [stats.energy, beginRest, getBounds, startWander])
+  }, [stats.energy, beginRest, getBounds, startWander, completeTraining])
 
   const advanceWalkFrame = useCallback(() => {
     const phase = walkPhaseRef.current
@@ -259,6 +269,20 @@ export default function VirtualPet() {
   }, [stats.energy, animMode, onArrived])
 
   useEffect(() => {
+    if (!trainingActive) return
+    clearTimers()
+    busyRef.current = true
+    animModeRef.current = 'walk'
+    setAnimMode('walk')
+    walkPhaseRef.current = 'loop'
+    seqPosRef.current = 0
+    setFrameIndex(2)
+    setFacingLeft(false)
+    const b = getBounds()
+    targetRef.current = { x: b.maxX, y: posRef.current.y }
+  }, [trainingActive, getBounds])
+
+  useEffect(() => {
     if (petAction !== 'happy') return
     clearTimers()
     busyRef.current = true
@@ -298,7 +322,7 @@ export default function VirtualPet() {
     <div ref={arenaRef} className="pet-map-layer">
       <div className="pet-walk-zone" aria-hidden="true" />
       <div
-        className="virtual-pet qilin-pet"
+        className={`virtual-pet qilin-pet${trainingActive ? ' training-run' : ''}`}
         style={{ left: pos.x, top: pos.y, width: PET_WIDTH }}
         onClick={handleClick}
         role="button"

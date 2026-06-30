@@ -1,7 +1,6 @@
 import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
-import BottomNav from './components/BottomNav'
 import HomePage from './pages/HomePage'
 import FocusPage from './pages/FocusPage'
 import ProfilePage from './pages/ProfilePage'
@@ -29,7 +28,6 @@ function AppContent() {
           <Route path="/guide" element={<ProfilePage />} />
         </Routes>
       </main>
-      <BottomNav />
     </div>
   )
 }

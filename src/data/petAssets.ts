@@ -104,9 +104,13 @@ export const uiIcons = {
 }
 
 export const uiButtons = {
-  signin: asset('ui/buttons/button_signin.png'),
-  shop: asset('ui/buttons/button_shop.png'),
-  bag: asset('ui/buttons/button_bag.png'),
+  signin: asset('ui/buttons/1.png'),
+  shop: asset('ui/buttons/3.png'),
+  bag: asset('ui/buttons/2.png'),
+  cultivate: asset('ui/buttons/4.png'),
+  hatch: asset('ui/buttons/5.png'),
+  training: asset('ui/buttons/6.png'),
+  map: asset('ui/buttons/7.png'),
   settings: asset('ui/buttons/button_settings.png'),
 }
 

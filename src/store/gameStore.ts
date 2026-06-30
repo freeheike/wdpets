@@ -12,7 +12,11 @@ export interface PetStats {
   companionDays: number
   focusSessions: number
   lastCheckIn: string | null
+  intimacy: number
+  growthValue: number
 }
+
+export type GameplayPanel = 'cultivate' | 'hatch' | 'training' | 'map' | null
 
 export interface GameState {
   stats: PetStats
@@ -20,6 +24,10 @@ export interface GameState {
   petAction: CatAction
   showBag: boolean
   showShop: boolean
+  activePanel: GameplayPanel
+  hatchProgress: number
+  isHatching: boolean
+  trainingActive: boolean
   effect: 'heart' | 'coin' | 'zzz' | 'star' | null
   signedToday: boolean
 }
@@ -37,6 +45,8 @@ const defaultStats: PetStats = {
   companionDays: 1,
   focusSessions: 0,
   lastCheckIn: null,
+  intimacy: 62,
+  growthValue: 38,
 }
 
 function clamp(v: number, min = 0, max = 100) {
@@ -61,6 +71,8 @@ function save(state: GameState) {
     stats: state.stats,
     scene: state.scene,
     lastCheckIn: state.stats.lastCheckIn,
+    hatchProgress: state.hatchProgress,
+    isHatching: state.isHatching,
   }))
 }
 
@@ -70,6 +82,11 @@ interface GameStore extends GameState {
   setScene: (scene: SceneId) => void
   setShowBag: (v: boolean) => void
   setShowShop: (v: boolean) => void
+  setActivePanel: (panel: GameplayPanel) => void
+  setHatchProgress: (v: number) => void
+  setIsHatching: (v: boolean) => void
+  startTraining: () => boolean
+  completeTraining: () => void
   triggerEffect: (e: GameState['effect']) => void
   signIn: () => boolean
   feed: () => void
@@ -84,6 +101,10 @@ export const useGameStore = create<GameStore>((set, get) => ({
   petAction: 'idle',
   showBag: false,
   showShop: false,
+  activePanel: null,
+  hatchProgress: 35,
+  isHatching: false,
+  trainingActive: false,
   effect: null,
   signedToday: false,
 
@@ -95,6 +116,8 @@ export const useGameStore = create<GameStore>((set, get) => ({
       stats,
       scene: saved.scene ?? 'day',
       signedToday: stats.lastCheckIn === today,
+      hatchProgress: typeof saved.hatchProgress === 'number' ? saved.hatchProgress : 35,
+      isHatching: saved.isHatching ?? false,
     })
   },
 
@@ -105,9 +128,43 @@ export const useGameStore = create<GameStore>((set, get) => ({
     save({ ...get(), scene })
   },
 
-  setShowBag: (v) => set({ showBag: v, showShop: false }),
+  setShowBag: (v) => set({ showBag: v, showShop: false, activePanel: null }),
 
-  setShowShop: (v) => set({ showShop: v, showBag: false }),
+  setShowShop: (v) => set({ showShop: v, showBag: false, activePanel: null }),
+
+  setActivePanel: (panel) => set({ activePanel: panel, showBag: false, showShop: false }),
+
+  setHatchProgress: (v) => {
+    const progress = clamp(v, 0, 100)
+    set({ hatchProgress: progress })
+    save({ ...get(), hatchProgress: progress })
+  },
+
+  setIsHatching: (v) => {
+    set({ isHatching: v })
+    save({ ...get(), isHatching: v })
+  },
+
+  startTraining: () => {
+    const { stats, trainingActive } = get()
+    if (trainingActive || stats.energy < 10) return false
+    const updated = { ...stats, energy: clamp(stats.energy - 10) }
+    set({ stats: updated, trainingActive: true, activePanel: null })
+    save({ ...get(), stats: updated })
+    return true
+  },
+
+  completeTraining: () => {
+    const { stats } = get()
+    const updated = {
+      ...stats,
+      exp: stats.exp + 15,
+      growthValue: clamp(stats.growthValue + 3, 0, 100),
+    }
+    set({ stats: updated, trainingActive: false })
+    get().triggerEffect('star')
+    save({ ...get(), stats: updated })
+  },
 
   triggerEffect: (effect) => {
     set({ effect })
