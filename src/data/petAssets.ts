@@ -4,7 +4,7 @@ function asset(path: string) {
   return `${BASE}/${path}`
 }
 
-const qilinFrame = (n: number) => asset(`pets/qilin/state/${n}.png`)
+const qilinFrame = (n: number) => asset(`pets/qilin/state/${n}.webp`)
 
 /** 水墨小龙 10 帧动画 */
 export const qilinFrames = {
@@ -69,62 +69,62 @@ export const catStates = {
 }
 
 export const foodItems = {
-  fish: { src: asset('items/food/food_fish.png'), name: '鱼干' },
-  bone: { src: asset('items/food/food_bone.png'), name: '骨头' },
-  carrot: { src: asset('items/food/food_carrot.png'), name: '胡萝卜' },
-  cookie: { src: asset('items/food/food_cookie.png'), name: '饼干' },
-  milk: { src: asset('items/food/food_milk.png'), name: '牛奶' },
-  cake: { src: asset('items/food/food_cake.png'), name: '蛋糕' },
+  fish: { src: asset('items/food/food_fish.webp'), name: '鱼干' },
+  bone: { src: asset('items/food/food_bone.webp'), name: '骨头' },
+  carrot: { src: asset('items/food/food_carrot.webp'), name: '胡萝卜' },
+  cookie: { src: asset('items/food/food_cookie.webp'), name: '饼干' },
+  milk: { src: asset('items/food/food_milk.webp'), name: '牛奶' },
+  cake: { src: asset('items/food/food_cake.webp'), name: '蛋糕' },
 }
 
 export const toyItems = {
-  ball: { src: asset('items/toys/toy_ball.png'), name: '小球' },
-  yarn: { src: asset('items/toys/toy_yarn.png'), name: '毛线' },
-  frisbee: { src: asset('items/toys/toy_frisbee.png'), name: '飞盘' },
-  bell: { src: asset('items/toys/toy_bell.png'), name: '铃铛' },
-  bubble: { src: asset('items/toys/toy_bubble.png'), name: '泡泡' },
-  pillow: { src: asset('items/toys/toy_pillow.png'), name: '枕头' },
+  ball: { src: asset('items/toys/toy_ball.webp'), name: '小球' },
+  yarn: { src: asset('items/toys/toy_yarn.webp'), name: '毛线' },
+  frisbee: { src: asset('items/toys/toy_frisbee.webp'), name: '飞盘' },
+  bell: { src: asset('items/toys/toy_bell.webp'), name: '铃铛' },
+  bubble: { src: asset('items/toys/toy_bubble.webp'), name: '泡泡' },
+  pillow: { src: asset('items/toys/toy_pillow.webp'), name: '枕头' },
 }
 
 export const cleaningItems = {
-  soap: asset('items/cleaning/clean_soap.png'),
-  towel: asset('items/cleaning/clean_towel.png'),
-  brush: asset('items/cleaning/clean_brush.png'),
-  water: asset('items/cleaning/clean_water_drops.png'),
+  soap: asset('items/cleaning/clean_soap.webp'),
+  towel: asset('items/cleaning/clean_towel.webp'),
+  brush: asset('items/cleaning/clean_brush.webp'),
+  water: asset('items/cleaning/clean_water_drops.webp'),
 }
 
 export const uiIcons = {
-  heart: asset('ui/icons/icon_heart.png'),
-  food: asset('ui/icons/icon_food.png'),
-  energy: asset('ui/icons/icon_energy.png'),
-  star: asset('ui/icons/icon_star.png'),
-  coin: asset('ui/icons/icon_coin.png'),
-  diamond: asset('ui/icons/icon_diamond.png'),
-  level: asset('ui/icons/icon_level_badge.png'),
+  heart: asset('ui/icons/icon_heart.webp'),
+  food: asset('ui/icons/icon_food.webp'),
+  energy: asset('ui/icons/icon_energy.webp'),
+  star: asset('ui/icons/icon_star.webp'),
+  coin: asset('ui/icons/icon_coin.webp'),
+  diamond: asset('ui/icons/icon_diamond.webp'),
+  level: asset('ui/icons/icon_level_badge.webp'),
 }
 
 export const uiButtons = {
-  signin: asset('ui/buttons/1.png'),
-  shop: asset('ui/buttons/3.png'),
-  bag: asset('ui/buttons/2.png'),
-  cultivate: asset('ui/buttons/4.png'),
-  hatch: asset('ui/buttons/5.png'),
-  training: asset('ui/buttons/6.png'),
-  map: asset('ui/buttons/7.png'),
-  settings: asset('ui/buttons/button_settings.png'),
+  signin: asset('ui/buttons/1.webp'),
+  shop: asset('ui/buttons/3.webp'),
+  bag: asset('ui/buttons/2.webp'),
+  cultivate: asset('ui/buttons/4.webp'),
+  hatch: asset('ui/buttons/5.webp'),
+  training: asset('ui/buttons/6.webp'),
+  map: asset('ui/buttons/7.webp'),
+  settings: asset('ui/buttons/button_settings.webp'),
 }
 
 export const statusBars = {
-  mood: asset('ui/status_bars/status_bar_mood.png'),
-  hunger: asset('ui/status_bars/status_bar_hunger.png'),
-  energy: asset('ui/status_bars/status_bar_energy.png'),
-  exp: asset('ui/status_bars/status_bar_exp.png'),
+  mood: asset('ui/status_bars/status_bar_mood.webp'),
+  hunger: asset('ui/status_bars/status_bar_hunger.webp'),
+  energy: asset('ui/status_bars/status_bar_energy.webp'),
+  exp: asset('ui/status_bars/status_bar_exp.webp'),
 }
 
 export const backgrounds = {
-  day: asset('backgrounds/bg_day.png'),
-  focus: asset('backgrounds/bg_focus.png'),
-  night: asset('backgrounds/bg_night.png'),
+  day: asset('backgrounds/bg_day.webp'),
+  focus: asset('backgrounds/bg_focus.webp'),
+  night: asset('backgrounds/bg_night.webp'),
 } as const
 
 /** 宠物活动区：自底向上 3/7 处为上限，1/8 处为下限 */
@@ -134,19 +134,19 @@ export const PET_ZONE_BOTTOM_FROM_BOTTOM = 1 / 8
 export type SceneId = keyof typeof backgrounds
 
 export const effects = {
-  heart: asset('effects/effect_heart_pop.png'),
-  star: asset('effects/effect_star_flash.png'),
-  coin: asset('effects/effect_coin_fly.png'),
-  smoke: asset('effects/effect_smoke.png'),
-  zzz: asset('effects/effect_zzz.png'),
-  exclamation: asset('effects/effect_exclamation.png'),
-  speech: asset('effects/effect_speech_bubble.png'),
+  heart: asset('effects/effect_heart_pop.webp'),
+  star: asset('effects/effect_star_flash.webp'),
+  coin: asset('effects/effect_coin_fly.webp'),
+  smoke: asset('effects/effect_smoke.webp'),
+  zzz: asset('effects/effect_zzz.webp'),
+  exclamation: asset('effects/effect_exclamation.webp'),
+  speech: asset('effects/effect_speech_bubble.webp'),
 }
 
 export const share = {
-  template: asset('share/share_card_template.png'),
+  template: asset('share/share_card_template.webp'),
   avatar: qilinFrame(1),
-  qr: asset('share/qr_code_placeholder.png'),
+  qr: asset('share/qr_code_placeholder.webp'),
 }
 
 export function getQilinFrameSrc(index: number): string {
