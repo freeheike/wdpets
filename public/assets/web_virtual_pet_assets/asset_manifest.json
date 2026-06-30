@@ -1,0 +1,1353 @@
+{
+  "source": "a_flat_colorful_ui_asset_sheet_illustration_on_a.png",
+  "asset_count": 82,
+  "assets": [
+    {
+      "path": "pets/cat/actions/cat_idle_01.png",
+      "category": "pet_action",
+      "source_box": [
+        12,
+        88,
+        72,
+        178
+      ],
+      "transparent": true,
+      "size": [
+        60,
+        90
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_idle_02.png",
+      "category": "pet_action",
+      "source_box": [
+        72,
+        88,
+        150,
+        180
+      ],
+      "transparent": true,
+      "size": [
+        78,
+        92
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_jump_01.png",
+      "category": "pet_action",
+      "source_box": [
+        170,
+        74,
+        230,
+        190
+      ],
+      "transparent": true,
+      "size": [
+        60,
+        107
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_jump_02.png",
+      "category": "pet_action",
+      "source_box": [
+        238,
+        74,
+        325,
+        190
+      ],
+      "transparent": true,
+      "size": [
+        87,
+        114
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_walk_01.png",
+      "category": "pet_action",
+      "source_box": [
+        340,
+        90,
+        425,
+        185
+      ],
+      "transparent": true,
+      "size": [
+        85,
+        91
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_walk_02.png",
+      "category": "pet_action",
+      "source_box": [
+        426,
+        90,
+        503,
+        185
+      ],
+      "transparent": true,
+      "size": [
+        77,
+        94
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_sit_01.png",
+      "category": "pet_action",
+      "source_box": [
+        533,
+        90,
+        604,
+        185
+      ],
+      "transparent": true,
+      "size": [
+        71,
+        95
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_sit_02.png",
+      "category": "pet_action",
+      "source_box": [
+        610,
+        90,
+        680,
+        185
+      ],
+      "transparent": true,
+      "size": [
+        70,
+        95
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_sleep_01.png",
+      "category": "pet_action",
+      "source_box": [
+        12,
+        270,
+        90,
+        345
+      ],
+      "transparent": true,
+      "size": [
+        78,
+        74
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_sleep_02.png",
+      "category": "pet_action",
+      "source_box": [
+        88,
+        258,
+        182,
+        345
+      ],
+      "transparent": true,
+      "size": [
+        94,
+        87
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_happy_01.png",
+      "category": "pet_action",
+      "source_box": [
+        212,
+        260,
+        286,
+        352
+      ],
+      "transparent": true,
+      "size": [
+        74,
+        92
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_happy_02.png",
+      "category": "pet_action",
+      "source_box": [
+        288,
+        258,
+        368,
+        356
+      ],
+      "transparent": true,
+      "size": [
+        76,
+        98
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_angry_01.png",
+      "category": "pet_action",
+      "source_box": [
+        382,
+        264,
+        446,
+        352
+      ],
+      "transparent": true,
+      "size": [
+        64,
+        88
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_angry_02.png",
+      "category": "pet_action",
+      "source_box": [
+        446,
+        258,
+        520,
+        356
+      ],
+      "transparent": true,
+      "size": [
+        74,
+        98
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_hungry_01.png",
+      "category": "pet_action",
+      "source_box": [
+        544,
+        262,
+        615,
+        356
+      ],
+      "transparent": true,
+      "size": [
+        71,
+        94
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_hungry_02.png",
+      "category": "pet_action",
+      "source_box": [
+        608,
+        242,
+        678,
+        356
+      ],
+      "transparent": true,
+      "size": [
+        70,
+        114
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_cute_01.png",
+      "category": "pet_action",
+      "source_box": [
+        58,
+        420,
+        136,
+        525
+      ],
+      "transparent": true,
+      "size": [
+        78,
+        103
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_cute_02.png",
+      "category": "pet_action",
+      "source_box": [
+        112,
+        418,
+        180,
+        525
+      ],
+      "transparent": true,
+      "size": [
+        68,
+        103
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_headpat_01.png",
+      "category": "pet_action",
+      "source_box": [
+        242,
+        406,
+        326,
+        526
+      ],
+      "transparent": true,
+      "size": [
+        84,
+        120
+      ]
+    },
+    {
+      "path": "pets/cat/actions/cat_headpat_02.png",
+      "category": "pet_action",
+      "source_box": [
+        332,
+        404,
+        420,
+        528
+      ],
+      "transparent": true,
+      "size": [
+        88,
+        124
+      ]
+    },
+    {
+      "path": "pets/cat/states/cat_state_full_happy.png",
+      "category": "pet_state",
+      "source_box": [
+        708,
+        100,
+        798,
+        194
+      ],
+      "transparent": true,
+      "size": [
+        90,
+        94
+      ]
+    },
+    {
+      "path": "pets/cat/states/cat_state_hungry.png",
+      "category": "pet_state",
+      "source_box": [
+        812,
+        100,
+        890,
+        194
+      ],
+      "transparent": true,
+      "size": [
+        78,
+        94
+      ]
+    },
+    {
+      "path": "pets/cat/states/cat_state_sleepy.png",
+      "category": "pet_state",
+      "source_box": [
+        908,
+        100,
+        996,
+        194
+      ],
+      "transparent": true,
+      "size": [
+        88,
+        94
+      ]
+    },
+    {
+      "path": "pets/cat/states/cat_state_sick.png",
+      "category": "pet_state",
+      "source_box": [
+        1012,
+        98,
+        1094,
+        194
+      ],
+      "transparent": true,
+      "size": [
+        82,
+        96
+      ]
+    },
+    {
+      "path": "pets/cat/states/cat_state_dirty.png",
+      "category": "pet_state",
+      "source_box": [
+        716,
+        262,
+        798,
+        368
+      ],
+      "transparent": true,
+      "size": [
+        82,
+        106
+      ]
+    },
+    {
+      "path": "pets/cat/states/cat_state_level_up.png",
+      "category": "pet_state",
+      "source_box": [
+        812,
+        250,
+        932,
+        370
+      ],
+      "transparent": true,
+      "size": [
+        112,
+        120
+      ]
+    },
+    {
+      "path": "pets/cat/states/cat_state_reward.png",
+      "category": "pet_state",
+      "source_box": [
+        970,
+        265,
+        1086,
+        370
+      ],
+      "transparent": true,
+      "size": [
+        110,
+        105
+      ]
+    },
+    {
+      "path": "items/food/food_fish.png",
+      "category": "food_item",
+      "source_box": [
+        1133,
+        85,
+        1197,
+        130
+      ],
+      "transparent": true,
+      "size": [
+        61,
+        42
+      ]
+    },
+    {
+      "path": "items/food/food_bone.png",
+      "category": "food_item",
+      "source_box": [
+        1200,
+        75,
+        1258,
+        132
+      ],
+      "transparent": true,
+      "size": [
+        58,
+        56
+      ]
+    },
+    {
+      "path": "items/food/food_carrot.png",
+      "category": "food_item",
+      "source_box": [
+        1268,
+        70,
+        1325,
+        132
+      ],
+      "transparent": true,
+      "size": [
+        57,
+        61
+      ]
+    },
+    {
+      "path": "items/food/food_cookie.png",
+      "category": "food_item",
+      "source_box": [
+        1336,
+        78,
+        1398,
+        132
+      ],
+      "transparent": true,
+      "size": [
+        54,
+        54
+      ]
+    },
+    {
+      "path": "items/food/food_milk.png",
+      "category": "food_item",
+      "source_box": [
+        1406,
+        70,
+        1460,
+        132
+      ],
+      "transparent": true,
+      "size": [
+        41,
+        62
+      ]
+    },
+    {
+      "path": "items/food/food_cake.png",
+      "category": "food_item",
+      "source_box": [
+        1464,
+        70,
+        1522,
+        132
+      ],
+      "transparent": true,
+      "size": [
+        58,
+        59
+      ]
+    },
+    {
+      "path": "items/toys/toy_ball.png",
+      "category": "toy_item",
+      "source_box": [
+        1130,
+        210,
+        1185,
+        268
+      ],
+      "transparent": true,
+      "size": [
+        49,
+        52
+      ]
+    },
+    {
+      "path": "items/toys/toy_yarn.png",
+      "category": "toy_item",
+      "source_box": [
+        1194,
+        208,
+        1258,
+        268
+      ],
+      "transparent": true,
+      "size": [
+        64,
+        56
+      ]
+    },
+    {
+      "path": "items/toys/toy_frisbee.png",
+      "category": "toy_item",
+      "source_box": [
+        1265,
+        205,
+        1338,
+        263
+      ],
+      "transparent": true,
+      "size": [
+        73,
+        51
+      ]
+    },
+    {
+      "path": "items/toys/toy_bell.png",
+      "category": "toy_item",
+      "source_box": [
+        1335,
+        202,
+        1402,
+        268
+      ],
+      "transparent": true,
+      "size": [
+        67,
+        61
+      ]
+    },
+    {
+      "path": "items/toys/toy_bubble.png",
+      "category": "toy_item",
+      "source_box": [
+        1402,
+        208,
+        1468,
+        268
+      ],
+      "transparent": true,
+      "size": [
+        66,
+        56
+      ]
+    },
+    {
+      "path": "items/toys/toy_pillow.png",
+      "category": "toy_item",
+      "source_box": [
+        1470,
+        212,
+        1530,
+        266
+      ],
+      "transparent": true,
+      "size": [
+        60,
+        54
+      ]
+    },
+    {
+      "path": "items/cleaning/clean_soap.png",
+      "category": "cleaning_item",
+      "source_box": [
+        1126,
+        332,
+        1196,
+        386
+      ],
+      "transparent": true,
+      "size": [
+        70,
+        50
+      ]
+    },
+    {
+      "path": "items/cleaning/clean_towel.png",
+      "category": "cleaning_item",
+      "source_box": [
+        1198,
+        328,
+        1268,
+        386
+      ],
+      "transparent": true,
+      "size": [
+        62,
+        52
+      ]
+    },
+    {
+      "path": "items/cleaning/clean_brush.png",
+      "category": "cleaning_item",
+      "source_box": [
+        1283,
+        323,
+        1348,
+        386
+      ],
+      "transparent": true,
+      "size": [
+        59,
+        58
+      ]
+    },
+    {
+      "path": "items/cleaning/clean_water_drops.png",
+      "category": "cleaning_item",
+      "source_box": [
+        1360,
+        318,
+        1435,
+        386
+      ],
+      "transparent": true,
+      "size": [
+        54,
+        53
+      ]
+    },
+    {
+      "path": "ui/icons/icon_heart.png",
+      "category": "ui_icon",
+      "source_box": [
+        502,
+        435,
+        563,
+        495
+      ],
+      "transparent": true,
+      "size": [
+        60,
+        55
+      ]
+    },
+    {
+      "path": "ui/icons/icon_food.png",
+      "category": "ui_icon",
+      "source_box": [
+        588,
+        436,
+        644,
+        496
+      ],
+      "transparent": true,
+      "size": [
+        56,
+        60
+      ]
+    },
+    {
+      "path": "ui/icons/icon_energy.png",
+      "category": "ui_icon",
+      "source_box": [
+        680,
+        432,
+        730,
+        498
+      ],
+      "transparent": true,
+      "size": [
+        38,
+        62
+      ]
+    },
+    {
+      "path": "ui/icons/icon_star.png",
+      "category": "ui_icon",
+      "source_box": [
+        752,
+        436,
+        815,
+        498
+      ],
+      "transparent": true,
+      "size": [
+        50,
+        60
+      ]
+    },
+    {
+      "path": "ui/icons/icon_coin.png",
+      "category": "ui_icon",
+      "source_box": [
+        830,
+        432,
+        890,
+        498
+      ],
+      "transparent": true,
+      "size": [
+        60,
+        61
+      ]
+    },
+    {
+      "path": "ui/icons/icon_diamond.png",
+      "category": "ui_icon",
+      "source_box": [
+        914,
+        435,
+        974,
+        496
+      ],
+      "transparent": true,
+      "size": [
+        57,
+        57
+      ]
+    },
+    {
+      "path": "ui/icons/icon_level_badge.png",
+      "category": "ui_icon",
+      "source_box": [
+        1020,
+        435,
+        1083,
+        500
+      ],
+      "transparent": true,
+      "size": [
+        61,
+        61
+      ]
+    },
+    {
+      "path": "ui/buttons/button_signin.png",
+      "category": "ui_button",
+      "source_box": [
+        500,
+        540,
+        570,
+        623
+      ],
+      "transparent": true,
+      "size": [
+        70,
+        83
+      ]
+    },
+    {
+      "path": "ui/buttons/button_shop.png",
+      "category": "ui_button",
+      "source_box": [
+        583,
+        540,
+        656,
+        623
+      ],
+      "transparent": true,
+      "size": [
+        73,
+        83
+      ]
+    },
+    {
+      "path": "ui/buttons/button_bag.png",
+      "category": "ui_button",
+      "source_box": [
+        668,
+        540,
+        743,
+        623
+      ],
+      "transparent": true,
+      "size": [
+        75,
+        83
+      ]
+    },
+    {
+      "path": "ui/buttons/button_settings.png",
+      "category": "ui_button",
+      "source_box": [
+        758,
+        536,
+        832,
+        625
+      ],
+      "transparent": true,
+      "size": [
+        71,
+        89
+      ]
+    },
+    {
+      "path": "ui/status_bars/status_bar_mood.png",
+      "category": "ui_status_bar",
+      "source_box": [
+        895,
+        535,
+        1094,
+        563
+      ],
+      "transparent": true,
+      "size": [
+        199,
+        28
+      ]
+    },
+    {
+      "path": "ui/status_bars/status_bar_hunger.png",
+      "category": "ui_status_bar",
+      "source_box": [
+        895,
+        569,
+        1094,
+        597
+      ],
+      "transparent": true,
+      "size": [
+        196,
+        28
+      ]
+    },
+    {
+      "path": "ui/status_bars/status_bar_energy.png",
+      "category": "ui_status_bar",
+      "source_box": [
+        895,
+        599,
+        1094,
+        627
+      ],
+      "transparent": true,
+      "size": [
+        196,
+        28
+      ]
+    },
+    {
+      "path": "ui/status_bars/status_bar_exp.png",
+      "category": "ui_status_bar",
+      "source_box": [
+        895,
+        628,
+        1094,
+        656
+      ],
+      "transparent": true,
+      "size": [
+        199,
+        28
+      ]
+    },
+    {
+      "path": "ui/status_bars/status_bars_full_group.png",
+      "category": "ui_status_bar",
+      "source_box": [
+        839,
+        520,
+        1102,
+        660
+      ],
+      "transparent": true,
+      "size": [
+        260,
+        130
+      ]
+    },
+    {
+      "path": "backgrounds/bg_room_day.png",
+      "category": "background",
+      "source_box": [
+        15,
+        596,
+        162,
+        787
+      ],
+      "transparent": false,
+      "size": [
+        147,
+        191
+      ]
+    },
+    {
+      "path": "backgrounds/bg_desk_focus.png",
+      "category": "background",
+      "source_box": [
+        174,
+        596,
+        319,
+        787
+      ],
+      "transparent": false,
+      "size": [
+        145,
+        191
+      ]
+    },
+    {
+      "path": "backgrounds/bg_room_night.png",
+      "category": "background",
+      "source_box": [
+        329,
+        596,
+        476,
+        787
+      ],
+      "transparent": false,
+      "size": [
+        147,
+        191
+      ]
+    },
+    {
+      "path": "outfits/free/outfit_hat.png",
+      "category": "outfit_free",
+      "source_box": [
+        500,
+        750,
+        562,
+        835
+      ],
+      "transparent": true,
+      "size": [
+        62,
+        85
+      ]
+    },
+    {
+      "path": "outfits/free/outfit_antler.png",
+      "category": "outfit_free",
+      "source_box": [
+        568,
+        738,
+        630,
+        835
+      ],
+      "transparent": true,
+      "size": [
+        62,
+        97
+      ]
+    },
+    {
+      "path": "outfits/free/outfit_bow.png",
+      "category": "outfit_free",
+      "source_box": [
+        630,
+        730,
+        685,
+        835
+      ],
+      "transparent": true,
+      "size": [
+        51,
+        105
+      ]
+    },
+    {
+      "path": "outfits/premium/skin_christmas.png",
+      "category": "outfit_premium",
+      "source_box": [
+        707,
+        738,
+        772,
+        835
+      ],
+      "transparent": true,
+      "size": [
+        65,
+        97
+      ]
+    },
+    {
+      "path": "outfits/premium/skin_pumpkin.png",
+      "category": "outfit_premium",
+      "source_box": [
+        773,
+        735,
+        838,
+        835
+      ],
+      "transparent": true,
+      "size": [
+        65,
+        99
+      ]
+    },
+    {
+      "path": "outfits/premium/skin_programmer.png",
+      "category": "outfit_premium",
+      "source_box": [
+        845,
+        730,
+        914,
+        840
+      ],
+      "transparent": true,
+      "size": [
+        69,
+        109
+      ]
+    },
+    {
+      "path": "outfits/premium/skin_angel.png",
+      "category": "outfit_premium",
+      "source_box": [
+        920,
+        730,
+        986,
+        838
+      ],
+      "transparent": true,
+      "size": [
+        65,
+        108
+      ]
+    },
+    {
+      "path": "outfits/premium/skin_wizard.png",
+      "category": "outfit_premium",
+      "source_box": [
+        995,
+        734,
+        1056,
+        838
+      ],
+      "transparent": true,
+      "size": [
+        61,
+        99
+      ]
+    },
+    {
+      "path": "outfits/premium/outfit_crown.png",
+      "category": "outfit_premium",
+      "source_box": [
+        1053,
+        733,
+        1110,
+        820
+      ],
+      "transparent": true,
+      "size": [
+        57,
+        63
+      ]
+    },
+    {
+      "path": "effects/effect_heart_pop.png",
+      "category": "effect",
+      "source_box": [
+        35,
+        882,
+        125,
+        962
+      ],
+      "transparent": true,
+      "size": [
+        89,
+        71
+      ]
+    },
+    {
+      "path": "effects/effect_star_flash.png",
+      "category": "effect",
+      "source_box": [
+        150,
+        882,
+        235,
+        962
+      ],
+      "transparent": true,
+      "size": [
+        85,
+        70
+      ]
+    },
+    {
+      "path": "effects/effect_coin_fly.png",
+      "category": "effect",
+      "source_box": [
+        270,
+        880,
+        350,
+        962
+      ],
+      "transparent": true,
+      "size": [
+        71,
+        81
+      ]
+    },
+    {
+      "path": "effects/effect_smoke.png",
+      "category": "effect",
+      "source_box": [
+        375,
+        882,
+        460,
+        960
+      ],
+      "transparent": true,
+      "size": [
+        85,
+        60
+      ]
+    },
+    {
+      "path": "effects/effect_zzz.png",
+      "category": "effect",
+      "source_box": [
+        508,
+        895,
+        585,
+        960
+      ],
+      "transparent": true,
+      "size": [
+        75,
+        47
+      ]
+    },
+    {
+      "path": "effects/effect_exclamation.png",
+      "category": "effect",
+      "source_box": [
+        632,
+        888,
+        675,
+        962
+      ],
+      "transparent": true,
+      "size": [
+        43,
+        74
+      ]
+    },
+    {
+      "path": "effects/effect_speech_bubble.png",
+      "category": "effect",
+      "source_box": [
+        748,
+        908,
+        855,
+        958
+      ],
+      "transparent": true,
+      "size": [
+        107,
+        50
+      ]
+    },
+    {
+      "path": "share/share_card_template.png",
+      "category": "share_card",
+      "source_box": [
+        1156,
+        468,
+        1486,
+        994
+      ],
+      "transparent": false,
+      "size": [
+        330,
+        526
+      ]
+    },
+    {
+      "path": "share/share_card_pet_avatar_crop.png",
+      "category": "share_card_part",
+      "source_box": [
+        1270,
+        582,
+        1375,
+        707
+      ],
+      "transparent": true,
+      "size": [
+        105,
+        125
+      ]
+    },
+    {
+      "path": "share/qr_code_placeholder.png",
+      "category": "share_card_part",
+      "source_box": [
+        1284,
+        896,
+        1382,
+        986
+      ],
+      "transparent": false,
+      "size": [
+        98,
+        90
+      ]
+    },
+    {
+      "path": "pets/cat/cat_actions_sprite_sheet.png",
+      "category": "sprite_sheet",
+      "transparent": true,
+      "frame_size": [
+        128,
+        128
+      ],
+      "columns": 5,
+      "frames": {
+        "cat_idle_01.png": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "cat_idle_02.png": {
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "cat_jump_01.png": {
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "cat_jump_02.png": {
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "cat_walk_01.png": {
+          "x": 512,
+          "y": 0,
+          "w": 128,
+          "h": 128
+        },
+        "cat_walk_02.png": {
+          "x": 0,
+          "y": 128,
+          "w": 128,
+          "h": 128
+        },
+        "cat_sit_01.png": {
+          "x": 128,
+          "y": 128,
+          "w": 128,
+          "h": 128
+        },
+        "cat_sit_02.png": {
+          "x": 256,
+          "y": 128,
+          "w": 128,
+          "h": 128
+        },
+        "cat_sleep_01.png": {
+          "x": 384,
+          "y": 128,
+          "w": 128,
+          "h": 128
+        },
+        "cat_sleep_02.png": {
+          "x": 512,
+          "y": 128,
+          "w": 128,
+          "h": 128
+        },
+        "cat_happy_01.png": {
+          "x": 0,
+          "y": 256,
+          "w": 128,
+          "h": 128
+        },
+        "cat_happy_02.png": {
+          "x": 128,
+          "y": 256,
+          "w": 128,
+          "h": 128
+        },
+        "cat_angry_01.png": {
+          "x": 256,
+          "y": 256,
+          "w": 128,
+          "h": 128
+        },
+        "cat_angry_02.png": {
+          "x": 384,
+          "y": 256,
+          "w": 128,
+          "h": 128
+        },
+        "cat_hungry_01.png": {
+          "x": 512,
+          "y": 256,
+          "w": 128,
+          "h": 128
+        },
+        "cat_hungry_02.png": {
+          "x": 0,
+          "y": 384,
+          "w": 128,
+          "h": 128
+        },
+        "cat_cute_01.png": {
+          "x": 128,
+          "y": 384,
+          "w": 128,
+          "h": 128
+        },
+        "cat_cute_02.png": {
+          "x": 256,
+          "y": 384,
+          "w": 128,
+          "h": 128
+        },
+        "cat_headpat_01.png": {
+          "x": 384,
+          "y": 384,
+          "w": 128,
+          "h": 128
+        },
+        "cat_headpat_02.png": {
+          "x": 512,
+          "y": 384,
+          "w": 128,
+          "h": 128
+        }
+      }
+    }
+  ]
+}

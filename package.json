@@ -1,0 +1,28 @@
+{
+  "name": "webpet",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
+    "html2canvas": "^1.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.18.0",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tailwindcss": "^4.3.1",
+    "typescript": "~6.0.2",
+    "vite": "^6.3.5"
+  }
+}
